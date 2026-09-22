@@ -35,19 +35,19 @@ let score= 86
 function classifyNumber(x) {
     if (x===0) 
     console.log ("0"); 
-     else if (x>0 && 4%2)
-        console.log ("postive even");
-    else if (x>0 && 5%2)
+     else if (x>0 && x%2===0)
+        console.log ("positive even");
+    else if (x>0 && x%2!==0)
         console.log ("positive odd");
-    else if (x<0 && 6%2)
+    else if (x<0 && x%2===0)
         console.log ("negative even");
-    else if (x<0 && 5%2)
+    else if (x<0 && x%2!==0)
         console.log ("negative odd");
     
 }
 classifyNumber(5)
 classifyNumber(-3)
-classifyNumber(-4)
+classifyNumber(-6)
 classifyNumber(0)
 classifyNumber(266)
 
