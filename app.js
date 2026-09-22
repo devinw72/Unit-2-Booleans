@@ -70,7 +70,7 @@ console.log(getLetterGrade(60))
 console.log(getLetterGrade(40))
 console.log(getLetterGrade(0))
  */
-function fizzBuzz(num) {
+/* function fizzBuzz(num) {
     if(num%5===0 && num%3===0)
         return ("fizzBuzz");
     else if(num%5===0)
@@ -84,4 +84,5 @@ function fizzBuzz(num) {
 console.log(fizzBuzz(15))
 console.log(fizzBuzz(5))
 console.log(fizzBuzz(3))
-console.log(fizzBuzz(14))
+console.log(fizzBuzz(14)) */
+function getShippingCost()
